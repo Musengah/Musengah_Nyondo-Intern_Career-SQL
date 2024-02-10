@@ -1,9 +1,9 @@
 import pandas as pd
 from sqlalchemy import create_engine
 
-postgresql_username = ''
+postgresql_username = 'postgres'
 postgresql_password = ''
-postgresql_host = ''
+postgresql_host = 'localhost'
 postgresql_database = 'spotify_data'
 
 database_url = f'postgresql+psycopg2://{postgresql_username}:{postgresql_password}@{postgresql_host}/{postgresql_database}'
